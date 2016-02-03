@@ -1,0 +1,17 @@
+{
+  "name": "template-to-collection",
+  "version": "1.0.0",
+  "description": "Object, Map and WeakMap creation sugar using tagged template string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Object",
+    "Map",
+    "WeakMap",
+    "template strings"
+  ],
+  "author": "Mudit Ameta",
+  "license": "MIT"
+}
