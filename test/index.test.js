@@ -25,7 +25,14 @@ const m   = new Map([
 describe('template-to-collection', () => {
   describe('#createObject', () => {
     it('should create an Object with it\'s prototype as null', () => {
-      const o1 = C.Obj`a ${10} b ${-10.123} c ${'omg what'} d ${[1, 2, 'nope']} e ${oo} f ${fn}`
+      const o1 = C.Obj`
+      a ${10}
+      b ${-10.123}
+      c ${'omg what'}
+      d ${[1, 2, 'nope']}
+      e ${oo}
+      f ${fn}
+      `
 
       should(Object.getPrototypeOf(o1)).eql(null)
       Object.keys(o1).should.deepEqual(Object.keys(o))
