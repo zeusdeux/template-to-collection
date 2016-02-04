@@ -52,4 +52,8 @@ let wmap = C.WMap`${key} ${10}`
 
 > Note: If you intermix strings as keys and ${} expressions for keys, then things are gonna blow up.
 
-> For example, this is bad: Obj`${'key1'} ${10} key2 ${20}`
+> For example, this is bad: 
+
+> ```javascript
+  Obj`${'key1'} ${10} key2 ${20}`
+  ```
