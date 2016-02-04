@@ -9,7 +9,7 @@ Object, Map and WeakMap creation sugar using tagged template strings.
 npm install template-to-collection
 ```
 
-> Node: The source is written in ES2015. It should fit right into your transpilation pipeline.
+> Note: The source is written in ES2015. It should fit right into your transpilation pipeline.
 
 ## Usage
 
@@ -49,3 +49,6 @@ let wmap = C.WMap`${key} ${10}`
 
 // will create a WeakMap where wmap.has(key) === true
 ```
+
+> Note: If you intermix strings as keys and ${} expressions for keys, then things are gonna blow up.
+> For example, this is bad: Obj`${'key1'} ${10} key2 ${20}`
