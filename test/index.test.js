@@ -1,9 +1,11 @@
-const should = require('should')
-const C      = require('../')
-const oo     = Object.assign(Object.create(null), { z: 'yupp' })
-const arr    = [1, 2, 'nope']
-const fn     = v => v + 1
-const o      = Object.assign(Object.create(null), {
+import should from 'should'
+import C from '../'
+
+
+const oo  = Object.assign(Object.create(null), { z: 'yupp' })
+const arr = [1, 2, 'nope']
+const fn  = v => v + 1
+const o   = Object.assign(Object.create(null), {
   a: 10,
   b: -10.123,
   c: 'omg what',
@@ -11,7 +13,7 @@ const o      = Object.assign(Object.create(null), {
   e: oo,
   f: fn
 })
-const m      = new Map([
+const m   = new Map([
   ['a', 10],
   ['b', -10.123],
   ['c', 'omg what'],
@@ -19,7 +21,6 @@ const m      = new Map([
   ['e', oo],
   ['f', fn]
 ])
-
 
 describe('template-to-collection', () => {
   describe('#createObject', () => {
