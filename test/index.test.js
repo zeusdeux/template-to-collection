@@ -1,6 +1,5 @@
 import should from 'should'
-import C from '../'
-
+import * as C from '../'
 
 const oo  = Object.assign(Object.create(null), { z: 'yupp' })
 const arr = [1, 2, 'nope']
