@@ -13,5 +13,8 @@
     "template strings"
   ],
   "author": "Mudit Ameta",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jsverify": "^0.7.1"
+  }
 }
