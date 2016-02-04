@@ -4,7 +4,8 @@
   "description": "Object, Map and WeakMap creation sugar using tagged template string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-register",
+    "repl": "babel-node --presets es2015"
   },
   "keywords": [
     "Object",
