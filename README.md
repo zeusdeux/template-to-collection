@@ -1,4 +1,6 @@
 # template-to-collection
+[![Build Status](https://travis-ci.org/zeusdeux/template-to-collection.svg?branch=master)](https://travis-ci.org/zeusdeux/template-to-collection)
+
 Object, Map and WeakMap creation sugar using tagged template strings.
 
 ## Installation
