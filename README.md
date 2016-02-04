@@ -18,7 +18,7 @@ npm install template-to-collection
 #### `Obj` tag
 
 ```javascript
-import C from 'template-to-collection'
+import * as C from 'template-to-collection'
 
 let obj = C.Obj`a ${10} b ${'what'} fn ${v => v + 10}`
 
@@ -30,7 +30,7 @@ let obj = C.Obj`a ${10} b ${'what'} fn ${v => v + 10}`
 #### `Map` tag
 
 ```javascript
-import C from 'template-to-collection'
+import * as C from 'template-to-collection'
 
 let map = C.Map`a ${10} b ${'what'} fn ${v => v + 10}`
 
@@ -42,7 +42,7 @@ let map = C.Map`a ${10} b ${'what'} fn ${v => v + 10}`
 #### `WMap` tag
 
 ```javascript
-import C from 'template-to-collection'
+import * as C from 'template-to-collection'
 
 let key = {a: 200}
 let wmap = C.WMap`${key} ${10}`
