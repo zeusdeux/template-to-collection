@@ -1,6 +1,6 @@
 {
   "name": "template-to-collection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Object, Map and WeakMap creation sugar using tagged template string",
   "main": "index.js",
   "scripts": {
