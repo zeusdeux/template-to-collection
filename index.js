@@ -55,8 +55,8 @@ const createMap = (strKeys, ...vals) => _createMaps(Map, strKeys, vals)
 const createWMap = (strKeys, ...vals) => _createMaps(WeakMap, strKeys, vals)
 
 
-export {
-  createObject as Obj,
-  createMap as Map,
-  createWMap as WMap
+export default {
+  Map: createMap,
+  WMap: createWMap,
+  Obj: createObject
 }
